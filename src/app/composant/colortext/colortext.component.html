@@ -1,0 +1,12 @@
+<h3>Hello</h3>
+
+<input type="checkbox" [(ngModel)]="theCheckbox"  data-md-icheck (click)="colour($event)"/>
+
+    Checkbox is <div *ngIf= marked
+    [ngStyle]="{'color':'blue'}"
+    >checked</div>
+    <div *ngIf=!marked 
+    [ngStyle]="{'color':'green'}"
+    >unchecked</div>
+
+
